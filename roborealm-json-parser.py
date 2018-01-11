@@ -6,7 +6,7 @@ import collections
 import urllib2
 import sys
 
-response = urllib2.urlopen('http://localhost/autoPilotDataTest')
+response = urllib2.urlopen('http://localhost/autoPilotData')
 data = response.read()
 rr.SetVariable("data", data )
 
